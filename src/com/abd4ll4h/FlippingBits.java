@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+//https://www.hackerrank.com/challenges/flipping-bits/problem
 public class FlippingBits {
     static long flippingBits(long n) {
         String b= (Long.toBinaryString(n));
@@ -44,3 +45,10 @@ public class FlippingBits {
         scanner.close();
     }
 }
+
+/* test case
+3
+0
+802743475
+35601423
+*/
