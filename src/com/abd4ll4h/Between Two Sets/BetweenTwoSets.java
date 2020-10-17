@@ -14,10 +14,12 @@ public class BetweenTwoSets {
 
     public static int getTotalX(List<Integer> a, List<Integer> b) {
 
+        // array of results
         ArrayList<Integer>factors=new ArrayList<>();
 
         for(int i=Collections.max(a);i<=Collections.min(b);i++){
             int finalI = i;
+            // check to see if i is a LCM in all array a and GCD in all array b
             if(a.stream().allMatch(integer ->  finalI %integer==0)&&b.stream().allMatch(integer -> integer%finalI==0))
                 factors.add(i);
         }
