@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class BiggerIsGreater {
 
+    //https://www.hackerrank.com/challenges/bigger-is-greater/problem
+    //@ABD4LL4H
     static String biggerIsGreater(String s)
     {
         char charArr[] = s.toCharArray();
