@@ -7,7 +7,8 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class GreedyFlorist {
-//https://www.hackerrank.com/challenges/greedy-florist/problem
+
+    //https://www.hackerrank.com/challenges/greedy-florist/problem
     //@4d4ll4h
     static int getMinimumCost(int k, int[] c) {
 
